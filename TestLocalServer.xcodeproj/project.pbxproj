@@ -16,6 +16,8 @@
 		764D6E68178DB5FD008578F1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 764D6E67178DB5FD008578F1 /* Default.png */; };
 		764D6E6A178DB5FD008578F1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 764D6E69178DB5FD008578F1 /* Default@2x.png */; };
 		764D6E6C178DB5FD008578F1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 764D6E6B178DB5FD008578F1 /* Default-568h@2x.png */; };
+		764D6E75178DB632008578F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 764D6E73178DB632008578F1 /* ViewController.m */; };
+		764D6E76178DB632008578F1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 764D6E74178DB632008578F1 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,9 @@
 		764D6E67178DB5FD008578F1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		764D6E69178DB5FD008578F1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		764D6E6B178DB5FD008578F1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		764D6E72178DB632008578F1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		764D6E73178DB632008578F1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		764D6E74178DB632008578F1 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +56,9 @@
 		764D6E49178DB5FC008578F1 = {
 			isa = PBXGroup;
 			children = (
+				764D6E72178DB632008578F1 /* ViewController.h */,
+				764D6E73178DB632008578F1 /* ViewController.m */,
+				764D6E74178DB632008578F1 /* ViewController.xib */,
 				764D6E5B178DB5FC008578F1 /* TestLocalServer */,
 				764D6E54178DB5FC008578F1 /* Frameworks */,
 				764D6E53178DB5FC008578F1 /* Products */,
@@ -154,6 +162,7 @@
 				764D6E68178DB5FD008578F1 /* Default.png in Resources */,
 				764D6E6A178DB5FD008578F1 /* Default@2x.png in Resources */,
 				764D6E6C178DB5FD008578F1 /* Default-568h@2x.png in Resources */,
+				764D6E76178DB632008578F1 /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +175,7 @@
 			files = (
 				764D6E62178DB5FC008578F1 /* main.m in Sources */,
 				764D6E66178DB5FC008578F1 /* AppDelegate.m in Sources */,
+				764D6E75178DB632008578F1 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
